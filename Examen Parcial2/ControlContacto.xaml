@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="Examen_Parcial2.ControlContacto"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Examen_Parcial2"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="CornflowerBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Column="0" Grid.Row="0">Correo:</TextBlock>
+        <TextBox Grid.Column="0" Grid.Row="1" Width="500" HorizontalAlignment="Left" Name="txtCorreo"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="2" >Telefono:</TextBlock>
+        <TextBox Grid.Column="0" Grid.Row="3" Width="500" HorizontalAlignment="Left" Name="txtTelefono"></TextBox>
+        <TextBlock Grid.Column="0" Grid.Row="4">Celuluar:</TextBlock>
+        <TextBox Grid.Column="0" Grid.Row="5" Width="500" HorizontalAlignment="Left" Name="txtCelular"></TextBox>
+       
+
+
+
+    </Grid>
+</UserControl>
